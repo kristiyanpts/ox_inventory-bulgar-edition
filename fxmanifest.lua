@@ -46,3 +46,15 @@ files {
     'modules/bridge/**/client.lua',
     'data/*.lua',
 }
+
+escrow_ignore {
+    'data/*.lua',
+    'modules/**/shared.lua',
+    'modules/**/client.lua',
+    'modules/bridge/**/**/*.lua',
+    'setup/convert.lua',
+    'client.lua',
+    'server.lua',
+    'locales/*.json',
+    'init.lua'
+}
