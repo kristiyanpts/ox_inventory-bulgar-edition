@@ -49,9 +49,8 @@ files {
 
 escrow_ignore {
     'data/*.lua',
-    'modules/**/shared.lua',
-    'modules/**/client.lua',
-    'modules/bridge/**/**/*.lua',
+    'modules/**/*.lua',
+    'modules/**/**/*.lua',
     'setup/convert.lua',
     'client.lua',
     'server.lua',
